@@ -10,6 +10,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("EcoImpact")
+            
+            Text("Hi! This is EcoImpact, an app that helps give sustainable lifestyle suggestions. Together, little by little, we each can help make a difference and contribute to a greener world")
+                .multilineTextAlignment(.center)
+                .padding()
+                .foregroundColor(Color.green)
+            
             NavigationLink(destination: SecondView()) {
                 Text("Take the Sustainability Quiz!")
                     .frame(width: 200.0, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
