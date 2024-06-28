@@ -48,7 +48,7 @@ struct DonateView: View {
                                             .labelStyle(.iconOnly)
                                     }
                                     .padding()  
-                Text("Raised: \(totalDonations) so far.")
+                Text("Raised: $\(totalDonations) so far.")
                                 }
                             }
                         }

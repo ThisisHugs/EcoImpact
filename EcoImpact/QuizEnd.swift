@@ -28,7 +28,7 @@ struct QuizEnd: View {
                         }
                         .padding(.all, 10.0)
                         .multilineTextAlignment(.center)
-                        NavigationLink(destination: DonateView()) {
+                        NavigationLink(destination: MoreTips()) {
                             Text("Want more tips on staying green?")
                         }
                         .padding(.all, 10.0)
