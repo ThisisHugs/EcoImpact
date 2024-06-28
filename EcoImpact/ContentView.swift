@@ -43,7 +43,7 @@ struct ContentView: View {
                     }
                     .padding()
                     
-                    NavigationLink(destination: ThirdView()) {
+                    NavigationLink(destination: DonateView()) {
                         Text("Donate ♥︎")
                             .font(.callout)
                             .foregroundColor(Color(hue: 1.0, saturation: 0.117, brightness: 0.303))

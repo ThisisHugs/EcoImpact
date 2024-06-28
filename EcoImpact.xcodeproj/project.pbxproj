@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		128C1F2F2C2E4910002161E4 /* MoreTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C1F2E2C2E4910002161E4 /* MoreTips.swift */; };
+		128C1F312C2E55C1002161E4 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C1F302C2E55C1002161E4 /* ThirdView.swift */; };
+		128C1F332C2E55FD002161E4 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C1F322C2E55FD002161E4 /* DonateView.swift */; };
 		BDA586D82C2B33C7008A7E3A /* EcoImpactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */; };
 		BDA586DA2C2B33C7008A7E3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA586D92C2B33C7008A7E3A /* ContentView.swift */; };
 		BDA586DC2C2B33CA008A7E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA586DB2C2B33CA008A7E3A /* Assets.xcassets */; };
 		BDA586DF2C2B33CA008A7E3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA586DE2C2B33CA008A7E3A /* Preview Assets.xcassets */; };
 		BDFFF3872C2C8E87007F7B53 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFFF3862C2C8E87007F7B53 /* SecondView.swift */; };
-		BDFFF3892C2C8EAD007F7B53 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFFF3882C2C8EAD007F7B53 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		128C1F2E2C2E4910002161E4 /* MoreTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTips.swift; sourceTree = "<group>"; };
+		128C1F302C2E55C1002161E4 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		128C1F322C2E55FD002161E4 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
 		BDA586D42C2B33C7008A7E3A /* EcoImpact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoImpact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoImpactApp.swift; sourceTree = "<group>"; };
 		BDA586D92C2B33C7008A7E3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA586DB2C2B33CA008A7E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA586DE2C2B33CA008A7E3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDFFF3862C2C8E87007F7B53 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		BDFFF3882C2C8EAD007F7B53 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 				BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */,
 				BDA586D92C2B33C7008A7E3A /* ContentView.swift */,
 				BDFFF3862C2C8E87007F7B53 /* SecondView.swift */,
-				BDFFF3882C2C8EAD007F7B53 /* ThirdView.swift */,
+				128C1F302C2E55C1002161E4 /* ThirdView.swift */,
+				128C1F322C2E55FD002161E4 /* DonateView.swift */,
 				128C1F2E2C2E4910002161E4 /* MoreTips.swift */,
 				BDA586DB2C2B33CA008A7E3A /* Assets.xcassets */,
 				BDA586DD2C2B33CA008A7E3A /* Preview Content */,
@@ -146,10 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDFFF3892C2C8EAD007F7B53 /* ThirdView.swift in Sources */,
 				BDFFF3872C2C8E87007F7B53 /* SecondView.swift in Sources */,
+				128C1F332C2E55FD002161E4 /* DonateView.swift in Sources */,
 				BDA586DA2C2B33C7008A7E3A /* ContentView.swift in Sources */,
 				128C1F2F2C2E4910002161E4 /* MoreTips.swift in Sources */,
+				128C1F312C2E55C1002161E4 /* ThirdView.swift in Sources */,
 				BDA586D82C2B33C7008A7E3A /* EcoImpactApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

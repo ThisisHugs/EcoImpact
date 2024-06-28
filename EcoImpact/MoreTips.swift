@@ -10,19 +10,26 @@ import SwiftUI
 struct MoreTips: View {
     var body: some View {
         
-        Text("More Tips to Stay Green")
-            .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
-            .font(.title)
-            .fontWeight(.bold)
-        
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background {
-                Color("Color1")
+        ZStack {
+            Color("Color1")
                 .ignoresSafeArea()
+            VStack {
+                
+                Image(systemName: "tree")
+                    .renderingMode(.template)
+                    .foregroundColor(Color(hue: 0.44, saturation: 0.266, brightness: 0.587))
+                    .fontWeight(.bold)
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                
+                Text("More Tips to Stay Green")
+                    .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
+                    .font(.title)
+                    .fontWeight(.bold)
+            }
+        }
     }
-  }
 }
-
 #Preview {
     MoreTips()
 }
