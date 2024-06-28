@@ -11,8 +11,8 @@ struct Question2: View {
     
     @State private var producePercent : Double = 50
     @State private var isEditing = true
+    
     var body: some View {
-        
         ZStack {
             Color("Color1")
                 .ignoresSafeArea()

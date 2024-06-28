@@ -26,6 +26,9 @@ struct SecondView: View {
                     VStack {
                         Text("How much time do you spend in the shower each day?")
                             .multilineTextAlignment(.center)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
+                        
                         HStack {
                             Button("5 min") {
                                 gallons = "10"
@@ -57,15 +60,20 @@ struct SecondView: View {
                         Text("You use \(gallons) gallons of water to shower each day.")
                             .multilineTextAlignment(.center)
                             .padding(/*@START_MENU_TOKEN@*/.all, 10.0/*@END_MENU_TOKEN@*/)
+                            .foregroundColor(Color(hue: 0.434, saturation: 0.278, brightness: 0.553))
+                        
                         Button("Get my suggestion!") {
                             //Text("\(suggestion)")
                             showSuggestion = true
                             
                         }
                         .padding(/*@START_MENU_TOKEN@*/.all, 15.0/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.black)
+                        
                         if showSuggestion {
                             Text("\(suggestion)")
                                 .multilineTextAlignment(.center)
+                                .foregroundColor(Color(hue: 0.434, saturation: 0.278, brightness: 0.553))
                         }
                         
                         NavigationLink(destination: Question2()) {
@@ -73,15 +81,14 @@ struct SecondView: View {
                         }
                         .padding(.all, 10.0)
                         .multilineTextAlignment(.center)
-                        
                     }
-                    
                 }
                 .padding()
             }
         }
     }
 }
+
 #Preview {
     SecondView()
 }

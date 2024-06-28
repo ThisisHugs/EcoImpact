@@ -10,7 +10,9 @@ import SwiftUI
 struct QuizEnd: View {
     
     var body: some View {
-        
+        ZStack {
+            Color("Color1")
+                .ignoresSafeArea()
             
             NavigationStack {
                 ZStack {
@@ -20,7 +22,8 @@ struct QuizEnd: View {
                     VStack {
                         Text("Thank you for taking the Environmental Sustainability Quiz!")
                             .multilineTextAlignment(.center)
-                            .foregroundColor(Color(hue: 0.434, saturation: 0.278, brightness: 0.553))
+                            .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
                             .fontWeight(.bold)
                         
                         NavigationLink(destination: ContentView()) {
@@ -28,6 +31,8 @@ struct QuizEnd: View {
                         }
                         .padding(.all, 10.0)
                         .multilineTextAlignment(.center)
+                        .foregroundColor(.black)
+                        
                         NavigationLink(destination: MoreTips()) {
                             Text("Want more tips on staying green?")
                         }
@@ -47,6 +52,7 @@ struct QuizEnd: View {
             }
         }
     }
+}
 
 #Preview {
     QuizEnd()

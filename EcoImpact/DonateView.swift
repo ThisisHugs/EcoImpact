@@ -49,6 +49,11 @@ struct DonateView: View {
                                     }
                                     .padding()  
                 Text("Raised: $\(totalDonations) so far.")
+                    .padding()
+                    .background {
+                        Color("Color2")
+                            .cornerRadius(15)
+                    }
                                 }
                             }
                         }
