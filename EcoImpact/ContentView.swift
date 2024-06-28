@@ -55,25 +55,25 @@ struct ContentView: View {
                             .cornerRadius(15)
                     }
                     .padding()
-                }
-                
-                NavigationLink(destination:
-                    MoreTips()) {
-                    Text("More Tips")
-                        .font(.callout)
-                        .foregroundColor(Color(hue: 1.0, saturation: 0.117, brightness: 0.303))
-                        .frame(width: 200.0, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
-                        .frame(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+                    
+                    NavigationLink(destination:
+                                    MoreTips()) {
+                        Text("More Tips")
+                            .font(.callout)
+                            .foregroundColor(Color(hue: 1.0, saturation: 0.117, brightness: 0.303))
+                            .frame(width: 200.0, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+                            .frame(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
                     }
-                    .background {
-                        Color("Color2")
-                            .cornerRadius(15)
-                    }
-                    .padding()
+                                    .background {
+                                        Color("Color2")
+                                            .cornerRadius(15)
+                                    }
+                                    .padding()
                 }
             }
         }
     }
+}
 #Preview {
     ContentView()
 }
