@@ -9,8 +9,18 @@ import SwiftUI
 
 struct MoreTips: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Text("More Tips to Stay Green")
+            .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
+            .font(.title)
+            .fontWeight(.bold)
+        
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background {
+                Color("Color1")
+                .ignoresSafeArea()
     }
+  }
 }
 
 #Preview {
