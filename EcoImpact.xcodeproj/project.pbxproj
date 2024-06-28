@@ -75,6 +75,7 @@
 			children = (
 				BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */,
 				BDA586D92C2B33C7008A7E3A /* ContentView.swift */,
+				BDFFF3862C2C8E87007F7B53 /* SecondView.swift */,
 				5DC926472C2F0294007D5A6C /* Question2.swift */,
 				5DC926492C2F02BC007D5A6C /* Question3.swift */,
 				5DC9264B2C2F039D007D5A6C /* Question4.swift */,
@@ -83,7 +84,6 @@
 				5DC926512C2F04D5007D5A6C /* Question7.swift */,
 				5DC926532C2F04EA007D5A6C /* Question8.swift */,
 				5DC926552C2F0500007D5A6C /* QuizEnd.swift */,
-				BDFFF3862C2C8E87007F7B53 /* SecondView.swift */,
 				128C1F322C2E55FD002161E4 /* DonateView.swift */,
 				128C1F2E2C2E4910002161E4 /* MoreTips.swift */,
 				BDA586DB2C2B33CA008A7E3A /* Assets.xcassets */,
