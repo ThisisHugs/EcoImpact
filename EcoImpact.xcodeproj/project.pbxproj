@@ -8,8 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		128C1F2F2C2E4910002161E4 /* MoreTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C1F2E2C2E4910002161E4 /* MoreTips.swift */; };
-		128C1F312C2E55C1002161E4 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C1F302C2E55C1002161E4 /* ThirdView.swift */; };
 		128C1F332C2E55FD002161E4 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C1F322C2E55FD002161E4 /* DonateView.swift */; };
+		5DC926482C2F0294007D5A6C /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC926472C2F0294007D5A6C /* Question2.swift */; };
+		5DC9264A2C2F02BC007D5A6C /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC926492C2F02BC007D5A6C /* Question3.swift */; };
+		5DC9264C2C2F039D007D5A6C /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9264B2C2F039D007D5A6C /* Question4.swift */; };
+		5DC9264E2C2F03C8007D5A6C /* Question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9264D2C2F03C8007D5A6C /* Question5.swift */; };
+		5DC926502C2F03E3007D5A6C /* Question6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9264F2C2F03E3007D5A6C /* Question6.swift */; };
+		5DC926522C2F04D5007D5A6C /* Question7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC926512C2F04D5007D5A6C /* Question7.swift */; };
+		5DC926542C2F04EA007D5A6C /* Question8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC926532C2F04EA007D5A6C /* Question8.swift */; };
+		5DC926562C2F0500007D5A6C /* QuizEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC926552C2F0500007D5A6C /* QuizEnd.swift */; };
 		BDA586D82C2B33C7008A7E3A /* EcoImpactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */; };
 		BDA586DA2C2B33C7008A7E3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA586D92C2B33C7008A7E3A /* ContentView.swift */; };
 		BDA586DC2C2B33CA008A7E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA586DB2C2B33CA008A7E3A /* Assets.xcassets */; };
@@ -19,8 +26,15 @@
 
 /* Begin PBXFileReference section */
 		128C1F2E2C2E4910002161E4 /* MoreTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTips.swift; sourceTree = "<group>"; };
-		128C1F302C2E55C1002161E4 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		128C1F322C2E55FD002161E4 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
+		5DC926472C2F0294007D5A6C /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
+		5DC926492C2F02BC007D5A6C /* Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
+		5DC9264B2C2F039D007D5A6C /* Question4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
+		5DC9264D2C2F03C8007D5A6C /* Question5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question5.swift; sourceTree = "<group>"; };
+		5DC9264F2C2F03E3007D5A6C /* Question6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question6.swift; sourceTree = "<group>"; };
+		5DC926512C2F04D5007D5A6C /* Question7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question7.swift; sourceTree = "<group>"; };
+		5DC926532C2F04EA007D5A6C /* Question8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question8.swift; sourceTree = "<group>"; };
+		5DC926552C2F0500007D5A6C /* QuizEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEnd.swift; sourceTree = "<group>"; };
 		BDA586D42C2B33C7008A7E3A /* EcoImpact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoImpact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoImpactApp.swift; sourceTree = "<group>"; };
 		BDA586D92C2B33C7008A7E3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,8 +75,15 @@
 			children = (
 				BDA586D72C2B33C7008A7E3A /* EcoImpactApp.swift */,
 				BDA586D92C2B33C7008A7E3A /* ContentView.swift */,
+				5DC926472C2F0294007D5A6C /* Question2.swift */,
+				5DC926492C2F02BC007D5A6C /* Question3.swift */,
+				5DC9264B2C2F039D007D5A6C /* Question4.swift */,
+				5DC9264D2C2F03C8007D5A6C /* Question5.swift */,
+				5DC9264F2C2F03E3007D5A6C /* Question6.swift */,
+				5DC926512C2F04D5007D5A6C /* Question7.swift */,
+				5DC926532C2F04EA007D5A6C /* Question8.swift */,
+				5DC926552C2F0500007D5A6C /* QuizEnd.swift */,
 				BDFFF3862C2C8E87007F7B53 /* SecondView.swift */,
-				128C1F302C2E55C1002161E4 /* ThirdView.swift */,
 				128C1F322C2E55FD002161E4 /* DonateView.swift */,
 				128C1F2E2C2E4910002161E4 /* MoreTips.swift */,
 				BDA586DB2C2B33CA008A7E3A /* Assets.xcassets */,
@@ -150,11 +171,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFFF3872C2C8E87007F7B53 /* SecondView.swift in Sources */,
+				5DC926562C2F0500007D5A6C /* QuizEnd.swift in Sources */,
 				128C1F332C2E55FD002161E4 /* DonateView.swift in Sources */,
+				5DC926482C2F0294007D5A6C /* Question2.swift in Sources */,
 				BDA586DA2C2B33C7008A7E3A /* ContentView.swift in Sources */,
 				128C1F2F2C2E4910002161E4 /* MoreTips.swift in Sources */,
-				128C1F312C2E55C1002161E4 /* ThirdView.swift in Sources */,
+				5DC9264A2C2F02BC007D5A6C /* Question3.swift in Sources */,
+				5DC926542C2F04EA007D5A6C /* Question8.swift in Sources */,
+				5DC9264C2C2F039D007D5A6C /* Question4.swift in Sources */,
+				5DC926522C2F04D5007D5A6C /* Question7.swift in Sources */,
 				BDA586D82C2B33C7008A7E3A /* EcoImpactApp.swift in Sources */,
+				5DC926502C2F03E3007D5A6C /* Question6.swift in Sources */,
+				5DC9264E2C2F03C8007D5A6C /* Question5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
