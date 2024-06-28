@@ -36,15 +36,16 @@ struct QuizEnd: View {
                         NavigationLink(destination: MoreTips()) {
                             Text("Want more tips on staying green?")
                         }
-                        .padding(.all, 10.0)
+                        padding(.all, 10.0)
                         .multilineTextAlignment(.center)
+                        .foregroundColor(.black)
                         
                         NavigationLink(destination: DonateView()) {
-                            Text("Donate!")
+                            Text("Donate")
                         }
                         .padding(.all, 10.0)
                         .multilineTextAlignment(.center)
-                        
+                        .foregroundColor(.black)
                     }
                     
                 }

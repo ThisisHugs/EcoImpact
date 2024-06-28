@@ -25,6 +25,7 @@ struct SecondView: View {
                     
                     VStack {
                         Text("How much time do you spend in the shower each day?")
+                            .padding()
                             .multilineTextAlignment(.center)
                             .fontWeight(.bold)
                             .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
@@ -67,8 +68,12 @@ struct SecondView: View {
                             showSuggestion = true
                             
                         }
-                        .padding(/*@START_MENU_TOKEN@*/.all, 15.0/*@END_MENU_TOKEN@*/)
+                        .padding(.all,10.0)
                         .foregroundColor(.black)
+                        .background {
+                            Color("Color2")
+                                .cornerRadius(15)
+                        }
                         
                         if showSuggestion {
                             Text("\(suggestion)")

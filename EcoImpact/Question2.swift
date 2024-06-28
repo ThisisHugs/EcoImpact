@@ -68,6 +68,7 @@ struct Question2: View {
                 }
                 .padding(.all, 10.0)
                 .multilineTextAlignment(.center)
+                .foregroundColor(.blue)
                 
             }
         }
