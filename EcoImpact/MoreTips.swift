@@ -26,6 +26,17 @@ struct MoreTips: View {
                     .foregroundColor(Color(hue: 0.742, saturation: 0.193, brightness: 0.579))
                     .font(.title)
                     .fontWeight(.bold)
+                    .padding()
+                
+               Text("Avoid single-use plastics (when possible)")
+                    .foregroundColor(Color(hue: 0.434, saturation: 0.278, brightness: 0.553))
+                    .padding()
+                    .fontWeight(.bold)
+                
+                Text("By purchasing a reusable water bottle, you could save 1,500 plastic water bottles per year and $3,000.")
+                    .padding()
+                
+
             }
         }
     }
